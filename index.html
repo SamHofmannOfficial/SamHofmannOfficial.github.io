@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sam Hofmann — Engineer, Creator, Explorer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Particle canvas background -->
+    <canvas id="particles"></canvas>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <a href="index.html" class="nav-logo">S<span class="accent">H</span></a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="achievements.html">Achievements</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="rocketry.html">Rocketry</a></li>
+            <li><a href="rc.html">RC</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="https://www.youtube.com/@ProjectFlight-Official" target="_blank" class="nav-yt">YouTube ↗</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-eyebrow" data-anim="fade-up" data-delay="0">ENGINEER · CREATOR · EXPLORER</div>
+            <h1 class="hero-title" data-anim="fade-up" data-delay="1">
+                <span class="line">Sam</span>
+                <span class="line accent-glow">Hofmann</span>
+            </h1>
+            <p class="hero-sub" data-anim="fade-up" data-delay="2">Building rockets, breaking boundaries, and documenting the journey.</p>
+            <div class="hero-cta" data-anim="fade-up" data-delay="3">
+                <a href="about.html" class="btn btn-primary">Learn About Me</a>
+                <a href="https://www.youtube.com/@ProjectFlight-Official" target="_blank" class="btn btn-outline">Watch on YouTube ▶</a>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator" data-anim="fade-up" data-delay="4">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Quick Overview Cards -->
+    <section class="overview" id="overview">
+        <div class="section-header" data-anim="fade-up">
+            <h2>What I <span class="accent">Do</span></h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="card-grid">
+            <a href="rocketry.html" class="overview-card" data-anim="fade-up" data-delay="0">
+                <div class="card-icon">🚀</div>
+                <h3>Rocketry</h3>
+                <p>Designing, building, and launching model rockets — pushing altitude and experimenting with new builds.</p>
+                <span class="card-link">Explore →</span>
+            </a>
+            <a href="rc.html" class="overview-card" data-anim="fade-up" data-delay="1">
+                <div class="card-icon">🎮</div>
+                <h3>Radio Controlled</h3>
+                <p>RC vehicles, planes, and everything in between — tuning, modifying, and testing the limits.</p>
+                <span class="card-link">Explore →</span>
+            </a>
+            <a href="https://www.youtube.com/@ProjectFlight-Official" target="_blank" class="overview-card" data-anim="fade-up" data-delay="2">
+                <div class="card-icon">🎬</div>
+                <h3>ProjectFlight</h3>
+                <p>Documenting every build, launch, and experiment on my YouTube channel for fellow STEM enthusiasts.</p>
+                <span class="card-link">Watch →</span>
+            </a>
+            <a href="gallery.html" class="overview-card" data-anim="fade-up" data-delay="3">
+                <div class="card-icon">📸</div>
+                <h3>Gallery</h3>
+                <p>Photos from my projects — rocket launches, RC builds, and behind-the-scenes moments.</p>
+                <span class="card-link">View →</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- YouTube Embed Section -->
+    <section class="yt-section">
+        <div class="section-header" data-anim="fade-up">
+            <h2>Project<span class="accent">Flight</span></h2>
+            <p class="section-sub">Check out my latest videos</p>
+            <div class="section-line"></div>
+        </div>
+        <div class="yt-embed-wrapper" data-anim="fade-up" data-delay="1">
+            <div class="yt-placeholder">
+                <div class="yt-placeholder-content">
+                    <div class="yt-icon">▶</div>
+                    <h3>ProjectFlight on YouTube</h3>
+                    <p>Watch builds, launches, and experiments</p>
+                    <a href="https://www.youtube.com/@ProjectFlight-Official" target="_blank" class="btn btn-primary">Visit Channel</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-logo">S<span class="accent">H</span></div>
+            <p class="footer-tagline">Sam Hofmann — Marietta, GA</p>
+            <div class="footer-links">
+                <a href="about.html">About</a>
+                <a href="achievements.html">Achievements</a>
+                <a href="education.html">Education</a>
+                <a href="rocketry.html">Rocketry</a>
+                <a href="rc.html">RC</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="https://www.youtube.com/@ProjectFlight-Official" target="_blank">YouTube</a>
+            </div>
+            <p class="footer-copy">© 2026 Sam Hofmann. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

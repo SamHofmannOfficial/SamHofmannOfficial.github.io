@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocketry — Sam Hofmann</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="particles"></canvas>
+
+    <nav id="navbar">
+        <a href="index.html" class="nav-logo">S<span class="accent">H</span></a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="achievements.html">Achievements</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="rocketry.html" class="active">Rocketry</a></li>
+            <li><a href="rc.html">RC</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="https://www.youtube.com/@ProjectFlight-Official" target="_blank" class="nav-yt">YouTube ↗</a></li>
+        </ul>
+    </nav>
+
+    <section class="page-header">
+        <div class="hero-eyebrow" data-anim="fade-up" data-delay="0">🚀 HOBBY SPOTLIGHT</div>
+        <h1 data-anim="fade-up" data-delay="1"><span class="accent-glow">Rocketry</span></h1>
+        <p class="page-sub" data-anim="fade-up" data-delay="2">Designing, building, and launching model rockets</p>
+    </section>
+
+    <section class="content-section">
+
+        <div data-anim="fade-up">
+            <p>Rocketry has been one of my biggest passions. There's something incredibly satisfying about taking raw materials, designing a rocket from scratch, calculating the physics, building it with precision, and then watching it launch hundreds (or thousands) of feet into the air.</p>
+
+            <p>Every launch is a test — of design, of engineering, and of everything I've learned. When something goes wrong, it's a chance to learn. When it goes right, it's proof that the engineering works.</p>
+        </div>
+
+        <h3 data-anim="fade-up">What I Do</h3>
+        <div class="hobby-detail" data-anim="fade-up">
+            <p><strong>Design & Construction:</strong> I design rockets from the ground up, selecting airframe materials, nose cones, fins, and motor mounts. Each build is an opportunity to test new ideas — whether it's a different fin shape, a new recovery system, or a more powerful motor.</p>
+        </div>
+        <div class="hobby-detail" data-anim="fade-up">
+            <p><strong>Launch & Recovery:</strong> Launch day is where everything comes together. I prep motors, set up launch pads, run safety checks, and send it up. Recovery systems like parachutes and streamers are critical — the goal is always to get the rocket back in one piece for the next flight.</p>
+        </div>
+        <div class="hobby-detail" data-anim="fade-up">
+            <p><strong>Documentation:</strong> I film many of my launches and builds for my YouTube channel, <strong>ProjectFlight</strong>. Sharing the process helps me reflect on what worked and connects me with other rocketry enthusiasts.</p>
+        </div>
+
+        <h3 data-anim="fade-up">Skills Developed</h3>
+        <div class="skill-tags" data-anim="fade-up">
+            <span class="skill-tag">Aerodynamics</span>
+            <span class="skill-tag">Propulsion Systems</span>
+            <span class="skill-tag">Materials Science</span>
+            <span class="skill-tag">CAD / 3D Design</span>
+            <span class="skill-tag">Safety Protocols</span>
+            <span class="skill-tag">Physics & Calculations</span>
+            <span class="skill-tag">Project Planning</span>
+            <span class="skill-tag">Troubleshooting</span>
+        </div>
+
+        <h3 data-anim="fade-up">Notable Projects</h3>
+        <div class="timeline" data-anim="fade-up">
+            <div class="timeline-item">
+                <h4>Your Rocket Project 1</h4>
+                <div class="timeline-date">Date</div>
+                <p>Describe your rocket build here — motor type, altitude reached, any special features or challenges.</p>
+            </div>
+            <div class="timeline-item">
+                <h4>Your Rocket Project 2</h4>
+                <div class="timeline-date">Date</div>
+                <p>Another project description. What made this build special? What did you learn?</p>
+            </div>
+            <!-- ADD MORE PROJECTS HERE -->
+        </div>
+    </section>
+
+    <div class="edit-notice" data-anim="fade-up">
+        <div class="edit-notice-box">
+            <span class="icon">✏️</span>
+            <p><strong>Add your rocket projects!</strong> Open <code>rocketry.html</code> and replace the placeholder timeline items with your actual builds and launches. Add photos by putting image files in an <code>images/</code> folder and using <code>&lt;img src="images/yourphoto.jpg"&gt;</code> tags.</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-logo">S<span class="accent">H</span></div>
+            <p class="footer-tagline">Sam Hofmann — Marietta, GA</p>
+            <div class="footer-links">
+                <a href="about.html">About</a>
+                <a href="achievements.html">Achievements</a>
+                <a href="education.html">Education</a>
+                <a href="rocketry.html">Rocketry</a>
+                <a href="rc.html">RC</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="https://www.youtube.com/@ProjectFlight-Official" target="_blank">YouTube</a>
+            </div>
+            <p class="footer-copy">© 2026 Sam Hofmann. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

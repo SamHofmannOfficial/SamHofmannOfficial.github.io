@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery — Sam Hofmann</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="particles"></canvas>
+
+    <nav id="navbar">
+        <a href="index.html" class="nav-logo">S<span class="accent">H</span></a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="achievements.html">Achievements</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="rocketry.html">Rocketry</a></li>
+            <li><a href="rc.html">RC</a></li>
+            <li><a href="gallery.html" class="active">Gallery</a></li>
+            <li><a href="https://www.youtube.com/@ProjectFlight-Official" target="_blank" class="nav-yt">YouTube ↗</a></li>
+        </ul>
+    </nav>
+
+    <section class="page-header">
+        <div class="hero-eyebrow" data-anim="fade-up" data-delay="0">📸 MY WORK</div>
+        <h1 data-anim="fade-up" data-delay="1">Photo <span class="accent-glow">Gallery</span></h1>
+        <p class="page-sub" data-anim="fade-up" data-delay="2">Rocket launches, RC builds, and behind-the-scenes moments</p>
+    </section>
+
+    <div class="gallery-grid" data-anim="fade-up">
+        <!-- REPLACE THESE PLACEHOLDERS WITH YOUR REAL PHOTOS -->
+        <!-- Example with a real image:
+             <div class="gallery-item">
+                 <img src="images/rocket-launch-01.jpg" alt="First rocket launch">
+             </div>
+        -->
+        <div class="gallery-item">
+            <div class="gallery-placeholder">
+                <div class="gallery-placeholder-icon">🚀</div>
+                <span>Rocket Launch Photo</span>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <div class="gallery-placeholder">
+                <div class="gallery-placeholder-icon">🔧</div>
+                <span>Build Process</span>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <div class="gallery-placeholder">
+                <div class="gallery-placeholder-icon">🎮</div>
+                <span>RC Vehicle</span>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <div class="gallery-placeholder">
+                <div class="gallery-placeholder-icon">✈️</div>
+                <span>RC Aircraft</span>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <div class="gallery-placeholder">
+                <div class="gallery-placeholder-icon">🎬</div>
+                <span>Behind the Scenes</span>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <div class="gallery-placeholder">
+                <div class="gallery-placeholder-icon">📐</div>
+                <span>Design / CAD</span>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <div class="gallery-placeholder">
+                <div class="gallery-placeholder-icon">🔥</div>
+                <span>Launch Day</span>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <div class="gallery-placeholder">
+                <div class="gallery-placeholder-icon">⚡</div>
+                <span>Electronics Work</span>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <div class="gallery-placeholder">
+                <div class="gallery-placeholder-icon">🏆</div>
+                <span>Achievement Photo</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="edit-notice" data-anim="fade-up">
+        <div class="edit-notice-box">
+            <span class="icon">✏️</span>
+            <p><strong>Add your photos!</strong> Open <code>gallery.html</code>, create an <code>images/</code> folder next to your HTML files, drop your photos in, and replace each placeholder with: <code>&lt;div class="gallery-item"&gt;&lt;img src="images/your-photo.jpg" alt="description"&gt;&lt;/div&gt;</code></p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-logo">S<span class="accent">H</span></div>
+            <p class="footer-tagline">Sam Hofmann — Marietta, GA</p>
+            <div class="footer-links">
+                <a href="about.html">About</a>
+                <a href="achievements.html">Achievements</a>
+                <a href="education.html">Education</a>
+                <a href="rocketry.html">Rocketry</a>
+                <a href="rc.html">RC</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="https://www.youtube.com/@ProjectFlight-Official" target="_blank">YouTube</a>
+            </div>
+            <p class="footer-copy">© 2026 Sam Hofmann. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
